@@ -1,0 +1,23 @@
+Checking local TT-Metalium API legality for batch2 variant...
+Inspecting /home/ttpatrick/.local/share/containers/storage/overlay/9506a74f929155ed2bd932965de53bcc35a496e042b2fc590abfb5ae126947e3/diff/root/.cache/uv/archive-v0/ic5dQ7xXBxV5fehfYv7kr/ttnn/tt_metal/hw/inc/api/compute/cb_api.h ...
+OK: found 'cb_wait_front'
+OK: found 'cb_pop_front'
+OK: found 'cb_push_back'
+OK: found 'cb_reserve_back'
+Inspecting /home/ttpatrick/.local/share/containers/storage/overlay/9506a74f929155ed2bd932965de53bcc35a496e042b2fc590abfb5ae126947e3/diff/root/.cache/uv/archive-v0/ic5dQ7xXBxV5fehfYv7kr/ttnn/tt_metal/hw/inc/api/compute/tile_move_copy.h ...
+OK: found 'copy_tile'
+Inspecting /home/ttpatrick/.local/share/containers/storage/overlay/9506a74f929155ed2bd932965de53bcc35a496e042b2fc590abfb5ae126947e3/diff/root/.cache/uv/archive-v0/ic5dQ7xXBxV5fehfYv7kr/ttnn/tt_metal/hw/inc/api/compute/pack.h ...
+OK: found 'pack_tile'
+Inspecting /home/ttpatrick/.local/share/containers/storage/overlay/9506a74f929155ed2bd932965de53bcc35a496e042b2fc590abfb5ae126947e3/diff/root/.cache/uv/archive-v0/ic5dQ7xXBxV5fehfYv7kr/ttnn/tt_metal/hw/inc/api/compute/eltwise_unary/exp.h ...
+OK: found 'exp_tile'
+OK: found 'exp_tile_init'
+Checking local batch2 kernel source...
+OK: batch2 kernel contains: cb_wait_front(tt::CBIndex::c_0, 2)
+OK: batch2 kernel contains: copy_tile(tt::CBIndex::c_0, 0, 0)
+OK: batch2 kernel contains: copy_tile(tt::CBIndex::c_0, 1, 1)
+OK: batch2 kernel contains: ckernel::exp_tile(0)
+OK: batch2 kernel contains: ckernel::exp_tile(1)
+OK: batch2 kernel contains: pack_tile(0, tt::CBIndex::c_2)
+OK: batch2 kernel contains: pack_tile(1, tt::CBIndex::c_2)
+OK: batch2 kernel contains: cb_pop_front(tt::CBIndex::c_0, 2)
+PASS: legality check completed successfully.

@@ -1,0 +1,60 @@
+2026-03-18 12:03:07.376 | DEBUG    | ttnn:<module>:77 - Initial ttnn.CONFIG:
+Config{cache_path=/home/user/.cache/ttnn,model_cache_path=/home/user/.cache/ttnn/models,tmp_dir=/tmp/ttnn,enable_model_cache=false,enable_fast_runtime_mode=true,throw_exception_on_fallback=false,enable_logging=false,enable_graph_report=false,enable_detailed_buffer_report=false,enable_detailed_tensor_report=false,enable_comparison_mode=false,comparison_mode_should_raise_exception=false,comparison_mode_pcc=0.9999,root_report_path=generated/ttnn/reports,report_name=std::nullopt,std::nullopt}
+2026-03-18 12:03:07.756 | info     |             UMD | Creating TopologyDiscovery for architecture: blackhole (topology_discovery.cpp:64)
+2026-03-18 12:03:07.759 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:437)
+2026-03-18 12:03:07.759 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for blackhole architecture. Newest features may not be supported. (topology_discovery.cpp:469)
+2026-03-18 12:03:07.763 | info     |          Device | Opening user mode device driver (tt_cluster.cpp:224)
+2026-03-18 12:03:07.763 | info     |             UMD | Creating TopologyDiscovery for architecture: blackhole (topology_discovery.cpp:64)
+2026-03-18 12:03:07.766 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:437)
+2026-03-18 12:03:07.766 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for blackhole architecture. Newest features may not be supported. (topology_discovery.cpp:469)
+2026-03-18 12:03:07.770 | info     |             UMD | Creating TopologyDiscovery for architecture: blackhole (topology_discovery.cpp:64)
+2026-03-18 12:03:07.773 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:437)
+2026-03-18 12:03:07.773 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for blackhole architecture. Newest features may not be supported. (topology_discovery.cpp:469)
+2026-03-18 12:03:07.782 | info     |             UMD | Harvesting masks for chip 0 tensix: 0xc0 dram: 0x0 eth: 0x120 pcie: 0x2 l2cpu: 0x0 (cluster.cpp:331)
+2026-03-18 12:03:07.800 | info     |             UMD | Opening local chip ids/PCIe ids: {0}/[0] and remote chip ids {} (cluster.cpp:180)
+2026-03-18 12:03:07.800 | info     |             UMD | IOMMU: disabled (cluster.cpp:155)
+2026-03-18 12:03:07.800 | info     |             UMD | KMD version: 2.7.0 (cluster.cpp:158)
+2026-03-18 12:03:07.801 | info     |             UMD | Starting devices in cluster (cluster.cpp:952)
+2026-03-18 12:03:07.801 | info     |             UMD | Mapped hugepage 0x140000000 to NOC address 0x1000000000000000 (silicon_sysmem_manager.cpp:217)
+2026-03-18 12:03:07.901 | info     |     Distributed | Using auto discovery to generate mesh graph. (metal_env.cpp:325)
+2026-03-18 12:03:07.901 | info     |     Distributed | Constructing control plane using auto-discovery (no mesh graph descriptor). (metal_env.cpp:387)
+2026-03-18 12:03:07.901 | info     |             UMD | Creating TopologyDiscovery for architecture: blackhole (topology_discovery.cpp:64)
+2026-03-18 12:03:07.902 | info     |             UMD | Established firmware bundle version: 19.6.0 (topology_discovery.cpp:437)
+2026-03-18 12:03:07.902 | info     |             UMD | Firmware bundle version 19.6.0 on the system is newer than the latest fully tested version 19.5.0 for blackhole architecture. Newest features may not be supported. (topology_discovery.cpp:469)
+2026-03-18 12:03:07.905 | info     |          Fabric | TopologyMapper: Logical Multi-Mesh Adjacency Map: (topology_mapper.cpp:1470)
+2026-03-18 12:03:07.905 | info     |          Fabric | 
+=== Logical Mesh-Level Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:84)
+2026-03-18 12:03:07.905 | info     |          Fabric | 
+=== Logical Mesh 0 Internal Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:84)
+2026-03-18 12:03:07.905 | info     |          Fabric | TopologyMapper: Physical Multi-Mesh Adjacency Map: (topology_mapper.cpp:1481)
+2026-03-18 12:03:07.905 | info     |          Fabric | 
+=== Physical Mesh-Level Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:84)
+2026-03-18 12:03:07.905 | info     |          Fabric | 
+=== Physical Mesh 0 Internal Graph Adjacency Map ===
+Total nodes: 1
+Degree histogram: {0:1}
+ (topology_solver.tpp:84)
+2026-03-18 12:03:07.905 | info     |          Fabric | Starting multi-mesh mapping: 1 logical mesh(es) to 1 physical mesh(es) (topology_mapper_utils.cpp:1107)
+2026-03-18 12:03:07.905 | info     |          Fabric | Multi-mesh mapping attempt 1/2: Trying inter-mesh mapping (topology_mapper_utils.cpp:1148)
+2026-03-18 12:03:07.905 | info     |          Fabric | Attempt 1: Inter-mesh mapping succeeded, found 1 mesh pair(s) (topology_mapper_utils.cpp:1177)
+2026-03-18 12:03:07.905 | info     |          Fabric | Multi-mesh mapping succeeded after 1 attempt(s): 1 mesh pair(s) mapped (topology_mapper_utils.cpp:1316)
+2026-03-18 12:03:07.910 | info     |    BuildKernels | Using pre-compiled firmware from: /opt/venv/lib/python3.10/site-packages/ttnn/tt_metal/pre-compiled/15296582388382065472/ (build_env_manager.cpp:259)
+Importing ttnn...
+Imported from: /opt/venv/lib/python3.10/site-packages/ttnn/__init__.py
+Querying device count...
+Reported device count: 1
+Opening device 0...
+Opened device: MeshDevice(1x1 grid, 1 devices)
+Closing device 0...
+PASS: open_device smoke test completed successfully.
+2026-03-18 12:03:08.030 | info     |          Device | Closing user mode device drivers (tt_cluster.cpp:478)
+2026-03-18 12:03:08.030 | info     |             UMD | Closing devices in cluster (cluster.cpp:963)
