@@ -1,0 +1,19 @@
+.venv_imglab/
+__pycache__/
+*.pyc
+generated/
+
+# Rendered media and sandbox outputs
+*.mp4
+*.mov
+*.avi
+*.png
+
+playground_discrete_video/frames/
+playground_discrete_video/output/
+playground_discrete_video/*.mp4
+playground_discrete_video/preview_grid.png
+
+playground_discrete_video_p150a/artifacts/
+playground_discrete_video_p150a/logs/
+playground_discrete_video_p150a/src/__pycache__/

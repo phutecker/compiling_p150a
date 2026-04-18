@@ -1,0 +1,3 @@
+/home/ttpatrick/compiling_p150a/compling_p150a/compare/build/CMakeFiles/compare_eltwise_sfpu.dir
+/home/ttpatrick/compiling_p150a/compling_p150a/compare/build/CMakeFiles/edit_cache.dir
+/home/ttpatrick/compiling_p150a/compling_p150a/compare/build/CMakeFiles/rebuild_cache.dir

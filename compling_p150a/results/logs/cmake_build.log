@@ -1,0 +1,10 @@
+[ 50%] Building CXX object CMakeFiles/compare_eltwise_sfpu.dir/compare_eltwise_sfpu.cpp.o
+In file included from /home/ttpatrick/.local/lib/tt-metal/tt_metal/api/tt-metalium/device.hpp:22,
+                 from /home/ttpatrick/compiling_p150a/compling_p150a/compare/compare_eltwise_sfpu.cpp:23:
+/home/ttpatrick/.local/lib/tt-metal/tt_metal/api/tt-metalium/core_coord.hpp:20:10: fatal error: umd/device/types/xy_pair.hpp: No such file or directory
+   20 | #include <umd/device/types/xy_pair.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/compare_eltwise_sfpu.dir/build.make:79: CMakeFiles/compare_eltwise_sfpu.dir/compare_eltwise_sfpu.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:87: CMakeFiles/compare_eltwise_sfpu.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

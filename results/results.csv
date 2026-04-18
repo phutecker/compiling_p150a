@@ -1,9 +1,0 @@
-variant,n_tiles,status,max_abs_err,max_rel_err,time_ms,notes
-baseline,1,packaged_runtime_only,NA,NA,NA,device runtime works but packaged tt-metalium does not expose a supported standalone host build surface
-baseline,2,packaged_runtime_only,NA,NA,NA,device runtime works but packaged tt-metalium does not expose a supported standalone host build surface
-baseline,32,packaged_runtime_only,NA,NA,NA,device runtime works but packaged tt-metalium does not expose a supported standalone host build surface
-baseline,256,packaged_runtime_only,NA,NA,NA,device runtime works but packaged tt-metalium does not expose a supported standalone host build surface
-batch2,1,packaged_runtime_only,NA,NA,NA,device runtime works but packaged tt-metalium does not expose a supported standalone host build surface
-batch2,2,packaged_runtime_only,NA,NA,NA,device runtime works but packaged tt-metalium does not expose a supported standalone host build surface
-batch2,32,packaged_runtime_only,NA,NA,NA,device runtime works but packaged tt-metalium does not expose a supported standalone host build surface
-batch2,256,packaged_runtime_only,NA,NA,NA,device runtime works but packaged tt-metalium does not expose a supported standalone host build surface

@@ -1,0 +1,4 @@
+__pycache__/
+artifacts/
+logs/
+src/__pycache__/

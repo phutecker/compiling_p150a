@@ -1,0 +1,12 @@
+# label intensity drift
+# each run invents 3-4 random color bands internally
+# shading is chosen randomly twice for each run
+
+basement_glow 1.05 0.45
+awkward_sunset 0.95 0.70
+toxic_poster 1.30 0.90
+powder_bruise 1.10 1.25
+green_static 1.20 0.55
+cold_flash 1.25 1.60
+weird_flesh 1.15 0.80
+ultraviolet_crush 1.35 1.90
