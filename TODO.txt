@@ -1,0 +1,7 @@
+Hey Codex, I want you to get rid of the code that you wrote which doesnt use the p150a, also what is folder generated? Add a readme for the repo and the folders in the repo.
+
+Hey Codex, can you make the video much larger, right now it seems like you're downsampling. You have like 140 tensix cores,
+theres no wya thats necessary. Figure out how to maintain qualiryt, also for output of runs. make like a nicely formatted
+.txt or something and a graph with it. FLOPs would be cool to have. 
+
+
